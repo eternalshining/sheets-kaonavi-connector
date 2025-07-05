@@ -1,0 +1,29 @@
+{
+  "name": "sheets-kaonavi-connector",
+  "version": "1.0.0",
+  "description": "Googleスプレッドシートアドオン「カオナビデータ連携」",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest",
+    "build": "clasp push",
+    "deploy": "clasp deploy",
+    "login": "clasp login",
+    "create": "clasp create --type sheets",
+    "pull": "clasp pull",
+    "push": "clasp push"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "google-apps-script",
+    "spreadsheet",
+    "kaonavi",
+    "addon"
+  ],
+  "author": "",
+  "license": "MIT"
+}
