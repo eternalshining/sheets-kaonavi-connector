@@ -31,9 +31,9 @@
 
 ### インストール手順
 
-1. **プロジェクトのクローン/ダウンロード**
+1. **プロジェクトのクローン**
    ```bash
-   # このプロジェクトをクローンまたはダウンロード
+   git clone https://github.com/eternalshining/sheets-kaonavi-connector.git
    cd sheets-kaonavi-connector
    ```
 
@@ -66,6 +66,12 @@
    ```bash
    rm .clasp.json
    clasp create --type sheets --title "カオナビデータ連携"
+   ```
+   
+   または、`.clasp.json.template`ファイルをコピーして設定してください：
+   ```bash
+   cp .clasp.json.template .clasp.json
+   # .clasp.jsonファイルを編集して、YOUR_SCRIPT_IDとYOUR_PARENT_IDを実際の値に置き換え
    ```
 
 6. **rootDirの設定確認**
